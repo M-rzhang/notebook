@@ -10,30 +10,30 @@
 
 * 配置 Git 的配置文件，username 和 email
 
-** git config --global user.name "your name" // 配置用户名
+  * git config --global user.name "your name" // 配置用户名
 
-** git config --global user.email "your email" // 配置 email
+  * git config --global user.email "your email" // 配置 email
 
 * 建立项目
 
-** mkdir nodebook and cd nodebook
+  * mkdir nodebook and cd nodebook
 
-** echo "# notebook" >> README.md
+  * echo "# notebook" >> README.md
 
-** git init
+  * git init
 
-** git add README.md
+  * git add README.md
 
-** git commit -m "first commit"
+  * git commit -m "first commit"
 
-** git remote add origin https://github.com/M-rzhang/notebook.git
+  * git remote add origin https://github.com/M-rzhang/notebook.git
 
-** git push -u origin master 输入用户名密码即可创建项目
+  * git push -u origin master 输入用户名密码即可创建项目
 
 * 免密码提交
 
-** git remote rm origin
+  * git remote rm origin
 
-** git remote add origin git@github.com:M-rzhang/notebook.git
+  * git remote add origin git@github.com:M-rzhang/notebook.git
 
-** git push -u origin master
+  * git push -u origin master
